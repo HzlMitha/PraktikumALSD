@@ -18,7 +18,7 @@ public class DosenMain05 {
         dosen1.tampilkanInformasi();
 
 
-        Dosen05 dosen2 = new Dosen05("242008", "Adevian Fairuz Pratama, S.S.T, M.Eng.", false, 2018, "Matematika");
+        Dosen05 dosen2 = new Dosen05("242008", "Farid Angga Pribadi, S.Kom.,M.Kom", false, 2018, "Matematika");
         System.out.println();
         dosen2.tampilkanInformasi();
         dosen2.setStatusAktif(true);
