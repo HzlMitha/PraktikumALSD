@@ -19,11 +19,14 @@ public class Mahasiswa05 {
     }
 
     void tampilkanInformasi() {
-        System.out.println("--------------------------------");
-        System.out.println("Nama    : " + nama);
-        System.out.println("NIM     : " + nim);
-        System.out.println("IPK     : " + ipk);
-        System.out.println("Kelas   : " + kelas);
+        System.out.println("-------------------------------------");
+        System.out.println("Nama          : " + nama);
+        System.out.println("NIM           : " + nim);
+        System.out.println("IPK           : " + ipk);
+        System.out.println("Kelas         : " + kelas);
+        
+        String kinerja = nilaiKinerja();
+        System.out.println("Nilai kinerja : " + kinerja);
     }
 
     void ubahKelas (String kelasBaru) {

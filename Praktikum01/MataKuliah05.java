@@ -18,11 +18,12 @@ public class MataKuliah05 {
     }
 
     void tampilkanInformasi() {
-        System.out.println("---------------------------------");
-        System.out.println("Kode mata kuliah: " + kodeMK);
-        System.out.println("Nama mata kuliah: " + nama);
-        System.out.println("SKS             : " + sks);
-        System.out.println("Jumlah jam      : " + jumlahJam);
+        System.out.println("----------------------------------------------------------------------------");
+        System.out.println("Kode mata kuliah                 : " + kodeMK);
+        System.out.println("Nama mata kuliah                 : " + nama);
+        System.out.println("SKS                              : " + sks);
+        System.out.println("Jumlah jam pertemuan Mata kuliah : " + jumlahJam);
+        System.out.println("-----------------------------------------------------------------------------");
     }
 
     void ubahSks(int sksBaru) {
@@ -36,6 +37,7 @@ public class MataKuliah05 {
     void tambahJam (int jam) {
         if (jam >= 0) {
             jumlahJam += jam;
+            System.out.println("Jumlah jam pada mata kuliah " + nama +  " bertambah menjadi " + jumlahJam + " jam");
         } else {
             System.out.println("Jumlah jam tidak boleh negatif");
         }
@@ -44,6 +46,7 @@ public class MataKuliah05 {
     void kurangiJam (int jam) {
         if (jumlahJam > jam && jumlahJam != jam) {
             jumlahJam -= jam;
+            System.out.println("Jumlah jam pada mata kuliah " + nama + " berkurang menjadi " + jumlahJam + " jam");
         } else {
             System.out.println("Jumlah jam awal lebih kecil dari jam pengurang. Pengurangan tidak dapat dilakukan");
         }

@@ -33,7 +33,6 @@ public class Dosen05 {
 
     void setStatusAktif(boolean status) {
         this.statusAktif = status;
-        
     }
 
     int hitungMasaKerja(int thnSkrng) {
