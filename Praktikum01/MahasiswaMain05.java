@@ -12,15 +12,18 @@ public class MahasiswaMain05 {
         mhs1.tampilkanInformasi();
         mhs1.ubahKelas("SI 2K");
         mhs1.updateIpk(3.6);
+        System.out.println();
         mhs1.tampilkanInformasi();
 
         Mahasiswa05 mhs2 = new Mahasiswa05("Annisa Nabila", "21417220160", 3.25, "TI 2L");
         mhs2.updateIpk(3.30);
+        System.out.println();
         mhs2.tampilkanInformasi();
 
         Mahasiswa05 mhsMitha = new Mahasiswa05("Dian Paramitha", "244107060049", 3.4, "TI 1A");
         mhsMitha.updateIpk(3.9);
         mhsMitha.ubahKelas("SIB 1D");
+        System.out.println();
         mhsMitha.tampilkanInformasi();
     }
 }

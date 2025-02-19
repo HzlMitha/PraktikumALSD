@@ -18,10 +18,11 @@ public class MataKuliah05 {
     }
 
     void tampilkanInformasi() {
+        System.out.println("---------------------------------");
         System.out.println("Kode mata kuliah: " + kodeMK);
         System.out.println("Nama mata kuliah: " + nama);
-        System.out.println("SKS: " + sks);
-        System.out.println("Jumlah jam: " + jumlahJam);
+        System.out.println("SKS             : " + sks);
+        System.out.println("Jumlah jam      : " + jumlahJam);
     }
 
     void ubahSks(int sksBaru) {
