@@ -13,7 +13,6 @@ public class MataKuliahMain05 {
         matKul1.ubahSks(2);
         matKul1.tambahJam(1);
         matKul1.kurangiJam(5);
-        System.out.println();
         matKul1.tampilkanInformasi();
 
         MataKuliah05 matkul2 = new MataKuliah05("SIB242007", "Praktikum Basis Data", 4, 4);

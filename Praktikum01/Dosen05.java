@@ -22,7 +22,7 @@ public class Dosen05 {
     }
 
     void tampilkanInformasi() {
-        System.out.println("-------------------------------------------------");
+        System.out.println("----------------------------------------------------------");
         System.out.println("ID Dosen             : " + idDosen);
         System.out.println("Nama                 : " + nama);
         System.out.println("Status dosen         : " + (statusAktif ? "Aktif" : "Tidak aktif"));
