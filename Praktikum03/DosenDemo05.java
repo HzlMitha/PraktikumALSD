@@ -14,6 +14,9 @@ public class DosenDemo05 {
         boolean jenisKelamin;
         int usia;
 
+        System.out.println("=====================");
+        System.out.println("  INPUT DATA DOSEN  ");
+        System.out.println("=====================");
         for (int i = 0; i < arrayOfDosen.length; i++) {
             System.out.println("Masukkan Data Dosen ke-" + (i+1));
             System.out.print("Kode                        : ");
@@ -29,7 +32,7 @@ public class DosenDemo05 {
             System.out.println("------------------------------------------");
 
             arrayOfDosen[i] = new Dosen05(kode, nama, jenisKelamin, usia);
-
+            
         }
 
         DataDosen05 dataDsn = new DataDosen05();

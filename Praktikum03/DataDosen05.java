@@ -3,8 +3,9 @@ package Praktikum03;
 public class DataDosen05 {
  
     void dataSemuaDosen (Dosen05[] arrayOfDosen) {
-        System.out.println("Data semua Dosen : ");
-        System.out.println("------------------------------------------");
+        System.out.println("=====================");
+        System.out.println("      DATA DOSEN    ");
+        System.out.println("=====================");
         int i = 0;
         for (Dosen05 dsn : arrayOfDosen) {
             System.out.println("Data Dosen ke-" + (i+1));
@@ -29,7 +30,10 @@ public class DataDosen05 {
             }
         }
 
-       
+        System.out.println("===========================");
+        System.out.println("        DATA DOSEN        ");
+        System.out.println("(berdasarkan jenis kelamin)");
+        System.out.println("===========================");
         System.out.println("Jumlah Dosen Pria: " + jmlPria + " orang");
         System.out.println("Jumlah Dosen Wanita: " + jmlWanita + " orang");
         System.out.println("------------------------------------------");
@@ -47,7 +51,9 @@ public class DataDosen05 {
            }
         }
 
-        
+        System.out.println("=====================");
+        System.out.println("    RATA-RATA USIA   ");
+        System.out.println("=====================");
         if (jmlPria > 0) {
             System.out.println("Rata-rata usia seluruh Dosen pria : " + totalUsiaPria/jmlPria);
         } else {
@@ -72,7 +78,7 @@ public class DataDosen05 {
         }
         
        
-        System.out.println("Data Dosen tertua: ");
+        System.out.println("=== DATA DOSEN TERTUA ===");
         System.out.println("Kode          : " + arrayOfDosen[indeksDsn].kode);
         System.out.println("Nama          : " + arrayOfDosen[indeksDsn].nama);
         System.out.println("Jenis Kelamin : " + (arrayOfDosen[indeksDsn].jenisKelamin ? "Pria" : "Wanita"));
@@ -90,7 +96,7 @@ public class DataDosen05 {
         }
 
         
-        System.out.println("Data Dosen termuda: ");
+        System.out.println("=== DATA DOSEN TERMUDA ===");
         System.out.println("Kode          : " + arrayOfDosen[indeksDsn].kode);
         System.out.println("Nama          : " + arrayOfDosen[indeksDsn].nama);
         System.out.println("Jenis Kelamin : " + (arrayOfDosen[indeksDsn].jenisKelamin ? "Pria" : "Wanita"));
