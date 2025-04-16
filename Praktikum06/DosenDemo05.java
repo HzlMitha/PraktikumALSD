@@ -61,6 +61,8 @@ public class DosenDemo05 {
 
                 case 5:
                     System.out.println("Terima kasih telah menggunakan program ini");
+                    break;
+                    
                 default:
                     System.out.println("Pilihan menu tidak ada");
                     break;

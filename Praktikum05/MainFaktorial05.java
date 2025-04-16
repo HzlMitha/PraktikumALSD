@@ -12,5 +12,7 @@ public class MainFaktorial05 {
             " menggunakan BF: " + fk.faktorialBF(nilai));
         System.out.println("Nilai faktorial " + nilai +
             " menggunakan DC: " + fk.faktorialDC(nilai));
+
+        input.close();
     }   
 }

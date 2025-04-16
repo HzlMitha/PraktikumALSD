@@ -1,5 +1,4 @@
 package Praktikum06;
-
 public class MahasiswaBerprestasi05 {
     Mahasiswa05 [] listMhs;
     int idx;

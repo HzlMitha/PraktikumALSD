@@ -35,7 +35,7 @@ public class DataDosen05 {
         }
 
         for (int i = 0; i < idx - 1; i++) {
-            for (int j = 0; j < idx - i - 1; j++) {
+            for (int j = 1; j < idx - i; j++) {
                 if (listDsn[j].usia > listDsn[j + 1].usia) {
                     Dosen05 tmp = listDsn[j];
                     listDsn[j] = listDsn[j + 1];

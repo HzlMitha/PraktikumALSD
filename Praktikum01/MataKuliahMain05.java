@@ -50,5 +50,6 @@ public class MataKuliahMain05 {
         matkul2.tambahJam(2);
         matkul2.kurangiJam(1);
         matkul2.tampilkanInformasi();
+        sc.close();
     }
 }

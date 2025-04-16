@@ -56,6 +56,6 @@ public class MahasiswaTest {
             mhs[i].cetak();
         }
 
-
+        input.close();
     }
 }

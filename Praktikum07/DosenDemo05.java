@@ -1,5 +1,4 @@
 package Praktikum07;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class DosenDemo05 {

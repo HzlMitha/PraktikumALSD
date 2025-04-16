@@ -21,9 +21,9 @@ public class Pangkat05 {
             return a;
         } else {
             if (n%2 == 1) {
-                return (pangkatDC(a, n/2)* pangkatDC(a, n/2)*a);
+                return (pangkatDC(a, n/2) * pangkatDC(a, n/2)*a);
             } else {
-                return pangkatDC(a, n/2)*pangkatDC(a, n/2);
+                return pangkatDC(a, n/2) * pangkatDC(a, n/2);
             }
         }
     }

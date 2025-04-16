@@ -41,4 +41,6 @@ public class MataKuliah05 {
         System.out.println("SKS        : " + sks);
         System.out.println("Jumlah jam : " + jumlahJam);
     }
+
+    
 }

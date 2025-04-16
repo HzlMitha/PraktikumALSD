@@ -41,5 +41,6 @@ public class DosenDemo05 {
         dataDsn.rerataUsiaDosenPerJenisKelamin(arrayOfDosen);
         dataDsn.infoDosenPalingTua(arrayOfDosen);
         dataDsn.infoDosenPalingMuda(arrayOfDosen);
+        sc05.close();
     }
 }

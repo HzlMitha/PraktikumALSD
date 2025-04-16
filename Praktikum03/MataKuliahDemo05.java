@@ -24,6 +24,6 @@ public class MataKuliahDemo05 {
             arrayOfMataKuliah[i].cetakInfo();
             System.out.println("-------------------------------------------");
         }
-
+        sc05.close();
     }
 }

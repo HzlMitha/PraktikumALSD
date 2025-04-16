@@ -17,12 +17,17 @@ public class MainPangkat05 {
         }
 
         System.out.println("HASIL PANGKAT BRUTEFORCE: ");
-        for (Pangkat05 p : png) {
-            System.out.println(p.nilai+"^"+p.pangkat+": "+p.pangkatBF(p.nilai, p.pangkat));
+        // for (Pangkat05 p : png) {
+        //     System.out.println(p.nilai+"^"+p.pangkat+": "+p.pangkatBF(p.nilai, p.pangkat));
+        // }
+        for (int i = 0; i < png.length; i++) {
+            System.out.println(png[i].nilai+"^"+ png[i].pangkat +": " + png[i].pangkatBF(png[i].nilai, png[i].pangkat));
         }
+        
         System.out.println("HASIL PANGKAT DIVIDE DAN CONQUER: ");
         for (Pangkat05 p : png) {
             System.out.println(p.nilai+"^"+p.pangkat+": "+p.pangkatDC(p.nilai, p.pangkat));
         }
+        input.close();
     }
 }
